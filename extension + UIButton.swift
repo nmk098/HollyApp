@@ -15,7 +15,7 @@ extension UIButton {
         springAnimation.toValue = 1
         springAnimation.duration = 0.6
         springAnimation.autoreverses = true
-        springAnimation.repeatCount = 2
+        springAnimation.repeatCount = 1
         springAnimation.initialVelocity = 0.5
         springAnimation.damping = 1
         layer.add(springAnimation, forKey: nil)

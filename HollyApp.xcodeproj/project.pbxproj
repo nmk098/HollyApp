@@ -9,22 +9,24 @@
 /* Begin PBXBuildFile section */
 		C63EAEAA2962E4B000AA9EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEA92962E4B000AA9EF5 /* AppDelegate.swift */; };
 		C63EAEAC2962E4B000AA9EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEAB2962E4B000AA9EF5 /* SceneDelegate.swift */; };
-		C63EAEAE2962E4B000AA9EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEAD2962E4B000AA9EF5 /* ViewController.swift */; };
+		C63EAEAE2962E4B000AA9EF5 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEAD2962E4B000AA9EF5 /* MainScreenViewController.swift */; };
 		C63EAEB32962E4B100AA9EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63EAEB22962E4B100AA9EF5 /* Assets.xcassets */; };
 		C63EAEB62962E4B100AA9EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63EAEB42962E4B100AA9EF5 /* LaunchScreen.storyboard */; };
 		C63EAEBE2962EDE000AA9EF5 /* extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEBD2962EDE000AA9EF5 /* extension + UIButton.swift */; };
 		C63EAEC229630E4200AA9EF5 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = C63EAEC129630E4200AA9EF5 /* SpringAnimation */; };
+		C6DDD1FE2968B42B00EC801E /* HollyDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDD1FD2968B42B00EC801E /* HollyDaysViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C63EAEA62962E4B000AA9EF5 /* HollyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63EAEA92962E4B000AA9EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C63EAEAB2962E4B000AA9EF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C63EAEAD2962E4B000AA9EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C63EAEAD2962E4B000AA9EF5 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		C63EAEB22962E4B100AA9EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63EAEB52962E4B100AA9EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63EAEB72962E4B100AA9EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63EAEBD2962EDE000AA9EF5 /* extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIButton.swift"; sourceTree = "<group>"; };
+		C6DDD1FD2968B42B00EC801E /* HollyDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollyDaysViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			children = (
 				C63EAEA92962E4B000AA9EF5 /* AppDelegate.swift */,
 				C63EAEAB2962E4B000AA9EF5 /* SceneDelegate.swift */,
-				C63EAEAD2962E4B000AA9EF5 /* ViewController.swift */,
+				C6DDD1FF2968B44800EC801E /* VC's */,
 				C63EAEBF2962EDE500AA9EF5 /* extensions */,
 				C63EAEB22962E4B100AA9EF5 /* Assets.xcassets */,
 				C63EAEB42962E4B100AA9EF5 /* LaunchScreen.storyboard */,
@@ -76,6 +78,15 @@
 			);
 			name = extensions;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C6DDD1FF2968B44800EC801E /* VC's */ = {
+			isa = PBXGroup;
+			children = (
+				C63EAEAD2962E4B000AA9EF5 /* MainScreenViewController.swift */,
+				C6DDD1FD2968B42B00EC801E /* HollyDaysViewController.swift */,
+			);
+			path = "VC's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C63EAEAE2962E4B000AA9EF5 /* ViewController.swift in Sources */,
+				C63EAEAE2962E4B000AA9EF5 /* MainScreenViewController.swift in Sources */,
 				C63EAEAA2962E4B000AA9EF5 /* AppDelegate.swift in Sources */,
 				C63EAEAC2962E4B000AA9EF5 /* SceneDelegate.swift in Sources */,
 				C63EAEBE2962EDE000AA9EF5 /* extension + UIButton.swift in Sources */,
+				C6DDD1FE2968B42B00EC801E /* HollyDaysViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
