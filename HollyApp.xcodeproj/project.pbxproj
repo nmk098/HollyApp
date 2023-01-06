@@ -15,6 +15,8 @@
 		C63EAEBE2962EDE000AA9EF5 /* extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63EAEBD2962EDE000AA9EF5 /* extension + UIButton.swift */; };
 		C63EAEC229630E4200AA9EF5 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = C63EAEC129630E4200AA9EF5 /* SpringAnimation */; };
 		C6DDD1FE2968B42B00EC801E /* HollyDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDD1FD2968B42B00EC801E /* HollyDaysViewController.swift */; };
+		C6DDD2012968D08800EC801E /* DataForDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDD2002968D08800EC801E /* DataForDays.swift */; };
+		C6DDD2032968D88C00EC801E /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDD2022968D88C00EC801E /* ExpandableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		C63EAEB72962E4B100AA9EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63EAEBD2962EDE000AA9EF5 /* extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIButton.swift"; sourceTree = "<group>"; };
 		C6DDD1FD2968B42B00EC801E /* HollyDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollyDaysViewController.swift; sourceTree = "<group>"; };
+		C6DDD2002968D08800EC801E /* DataForDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataForDays.swift; sourceTree = "<group>"; };
+		C6DDD2022968D88C00EC801E /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				C6DDD1FF2968B44800EC801E /* VC's */,
 				C63EAEBF2962EDE500AA9EF5 /* extensions */,
 				C63EAEB22962E4B100AA9EF5 /* Assets.xcassets */,
+				C6DDD2002968D08800EC801E /* DataForDays.swift */,
+				C6DDD2022968D88C00EC801E /* ExpandableHeaderView.swift */,
 				C63EAEB42962E4B100AA9EF5 /* LaunchScreen.storyboard */,
 				C63EAEB72962E4B100AA9EF5 /* Info.plist */,
 			);
@@ -169,6 +175,8 @@
 				C63EAEAA2962E4B000AA9EF5 /* AppDelegate.swift in Sources */,
 				C63EAEAC2962E4B000AA9EF5 /* SceneDelegate.swift in Sources */,
 				C63EAEBE2962EDE000AA9EF5 /* extension + UIButton.swift in Sources */,
+				C6DDD2032968D88C00EC801E /* ExpandableHeaderView.swift in Sources */,
+				C6DDD2012968D08800EC801E /* DataForDays.swift in Sources */,
 				C6DDD1FE2968B42B00EC801E /* HollyDaysViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

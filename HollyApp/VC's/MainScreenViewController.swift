@@ -14,7 +14,7 @@ class MainScreenViewController: UIViewController {
     
     private lazy var hollyView: UIView = {
         var view = UIView()
-        view.backgroundColor = .blue
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "StoneT")!)
         view.translatesAutoresizingMaskIntoConstraints = false
        
         return view
@@ -22,7 +22,7 @@ class MainScreenViewController: UIViewController {
     
     private lazy var secondHollyView: UIView = {
         var view = UIView()
-        view.backgroundColor = .systemRed
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "stoneT2")!)
         view.translatesAutoresizingMaskIntoConstraints = false
        
         return view
@@ -33,7 +33,7 @@ class MainScreenViewController: UIViewController {
     private lazy var oldFaithButton: UIButton = {
         var button = UIButton()
         button.setTitle("Old Faith", for: .normal)
-        button.backgroundColor = .systemGreen
+        button.tintColor = .black
         button.addTarget(self, action: #selector(OFButtonTapp), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -42,7 +42,7 @@ class MainScreenViewController: UIViewController {
     private lazy var newFaithButton: UIButton = {
         var button = UIButton()
         button.setTitle("New Faith", for: .normal)
-        button.backgroundColor = .systemMint
+        button.tintColor = .black
         button.addTarget(self, action: #selector(NFButtonTapp), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -51,7 +51,7 @@ class MainScreenViewController: UIViewController {
     private lazy var hollyDayButton: UIButton = {
         var button = UIButton()
         button.setTitle("What day is?", for: .normal)
-        button.backgroundColor = .magenta
+        button.tintColor = .black
         button.addTarget(self, action: #selector(HDButtonTap), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -62,7 +62,7 @@ class MainScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "God bless you!"
-        view.backgroundColor = .gray
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "TableViewBG")!)
         view.addSubview(hollyView)
         view.addSubview(secondHollyView)
         view.addSubview(oldFaithButton)
