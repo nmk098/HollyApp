@@ -41,7 +41,55 @@ class HollyDaysViewController: UIViewController {
             subMenu: "Март",
             menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
             isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Апрель",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Май",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Июнь",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Июль",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Август",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Сентябрь",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Октябрь",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Ноябрь",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
+        ),
+        HolliDays(
+            subMenu: "Декабрь",
+            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            isStatus: false
         )
+        
+        
+        
     ]
     
     

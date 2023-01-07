@@ -119,16 +119,16 @@ class MainScreenViewController: UIViewController {
         secondHollyView.isHidden = true
         let start = self.hollyView.center
         
-        UIView.animateKeyframes(withDuration: 4, delay: 0, options: [.calculationModePaced, .repeat]) {
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.hollyView.frame.origin.y += 200
+        UIView.animateKeyframes(withDuration: 4.5, delay: 0, options: [.calculationModePaced, .repeat]) {
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.15) {
+                self.hollyView.frame.origin.y = UIScreen.main.bounds.midY
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.hollyView.frame.origin.y -= 100
-                self.hollyView.frame.origin.x += 80
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.30) {
+                self.hollyView.frame.origin.y = UIScreen.main.bounds.midY - (UIScreen.main.bounds.midY / 2)
+                self.hollyView.frame.origin.x += 120
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.hollyView.frame.origin.x -= 160
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.30) {
+                self.hollyView.frame.origin.x -= 240
             }
             UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
                 self.hollyView.center = start
@@ -144,16 +144,16 @@ class MainScreenViewController: UIViewController {
         secondHollyView.isHidden = false
         let start = self.secondHollyView.center
         
-        UIView.animateKeyframes(withDuration: 4, delay: 0, options: [.calculationModePaced, .repeat]) {
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.secondHollyView.frame.origin.y += 200
+        UIView.animateKeyframes(withDuration: 3.25, delay: 0, options: [.calculationModePaced, .repeat]) {
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.15) {
+                self.secondHollyView.frame.origin.y = UIScreen.main.bounds.midY
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.secondHollyView.frame.origin.y -= 100
-                self.secondHollyView.frame.origin.x += 80
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.30) {
+                self.secondHollyView.frame.origin.y = UIScreen.main.bounds.midY - (UIScreen.main.bounds.midY / 2)
+                self.secondHollyView.frame.origin.x += 120
             }
-            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
-                self.secondHollyView.frame.origin.x -= 160
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.30) {
+                self.secondHollyView.frame.origin.x -= 240
             }
             UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25) {
                 self.secondHollyView.center = start
