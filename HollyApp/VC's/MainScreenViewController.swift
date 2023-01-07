@@ -50,7 +50,7 @@ class MainScreenViewController: UIViewController {
     
     private lazy var hollyDayButton: UIButton = {
         var button = UIButton()
-        button.setTitle("What day is?", for: .normal)
+        button.setTitle("What month is?", for: .normal)
         button.tintColor = .black
         button.addTarget(self, action: #selector(HDButtonTap), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -62,6 +62,7 @@ class MainScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "God bless you!"
+        
         view.backgroundColor = UIColor(patternImage: UIImage(named: "TableViewBG")!)
         view.addSubview(hollyView)
         view.addSubview(secondHollyView)
@@ -168,6 +169,9 @@ class MainScreenViewController: UIViewController {
         secondHollyView.isHidden = true
        let hollyDaysVC = HollyDaysViewController()
         navigationController?.pushViewController(hollyDaysVC, animated: true)
-    }
+        }
     
-}
+   
+    }
+
+

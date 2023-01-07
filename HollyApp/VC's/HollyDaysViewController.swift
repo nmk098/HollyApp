@@ -9,6 +9,8 @@ import UIKit
 
 class HollyDaysViewController: UIViewController {
     
+   
+    
     private lazy var hollyDays: UITableView = {
         var tableView = UITableView()
         
@@ -29,62 +31,62 @@ class HollyDaysViewController: UIViewController {
     var menuData = [
         HolliDays(
             subMenu: "Январь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Февраль",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Март",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Апрель",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Май",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Июнь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Июль",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Август",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Сентябрь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Октябрь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Ноябрь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         ),
         HolliDays(
             subMenu: "Декабрь",
-            menu: ["1 неделя", "2 неделя", "3 неделя", "4 неделя"],
+            menu: ["Good month for pray!"],
             isStatus: false
         )
         
@@ -96,8 +98,8 @@ class HollyDaysViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(hollyDays)
-        view.backgroundColor = .systemRed
-        
+        view.backgroundColor = .gray
+
         
         
         hollyDays.register(UITableViewCell.self, forCellReuseIdentifier: identifire)
@@ -120,9 +122,12 @@ class HollyDaysViewController: UIViewController {
             width: UIScreen.main.bounds.width,
             height: UIScreen.main.bounds.height
         )
+        
+       
     }
 
-}
+   
+    }
 
 extension HollyDaysViewController: UITableViewDelegate {
     
